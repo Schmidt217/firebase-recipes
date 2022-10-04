@@ -14,6 +14,7 @@ const config = {
 	measurementId: process.env.REACT_APP_MEASUREMENT_ID,
 };
 
+// eslint-disable-next-line no-unused-vars
 const app = initializeApp(config);
 
 export default firebase;
