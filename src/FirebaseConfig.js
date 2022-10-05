@@ -1,4 +1,3 @@
-import firebase from "firebase/compat/app";
 import "firebase/compat/auth";
 import "firebase/compat/firestore";
 import "firebase/compat/storage";
@@ -15,6 +14,4 @@ const config = {
 };
 
 // eslint-disable-next-line no-unused-vars
-const app = initializeApp(config);
-
-export default firebase;
+export const firebaseApp = initializeApp(config);
